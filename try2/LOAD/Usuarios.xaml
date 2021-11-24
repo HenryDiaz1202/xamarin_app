@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.Usuarios">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#10B966">
+                <FlexLayout JustifyContent="Start">
+                    <Image Source="iconop2.png" HeightRequest="45" HorizontalOptions="Center"></Image>
+                    <Label HorizontalOptions="Start" FontSize="20" TranslationY="10" TextColor="#FAF8F8" >Math for Kids</Label>
+                </FlexLayout>
+            </Frame>
+            <Label FontSize="18" Margin="20,0,0,0" HorizontalOptions="Start" TextColor="#07347A">Registrar usuarios</Label>
+            <Entry Placeholder="Nombre de usuario" Margin="20,0"></Entry>
+            <Entry Placeholder="Contraseña" Margin="20,0"></Entry>
+            <Button x:Name="btnGuardar" CornerRadius="10" Text="Guardar" Margin="30,0" BorderColor="#0FD407" BackgroundColor="#044606" TextColor="#FAFAFA" ></Button>
+            <Label FontSize="18" Margin="20,0,0,0" HorizontalOptions="Start" TextColor="#07347A">Lista de usuarios</Label>
+
+                <ContentView>
+                    <TableView>
+                        <TableRoot>
+                            <TableSection>
+                                <TextCell Text="Usuario : Henry" TextColor="Gray"></TextCell>
+                                <TextCell Text="Contraseña : 1234"></TextCell>
+                            </TableSection>
+                            <TableSection>
+
+                            </TableSection>
+                            <TableSection>
+
+                            </TableSection>
+                        </TableRoot>
+                    </TableView>
+                </ContentView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

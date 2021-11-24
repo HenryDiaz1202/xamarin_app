@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.Login" 
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout  TranslationX="0" VerticalOptions="StartAndExpand" HorizontalOptions="Fill" Orientation="Vertical" FlowDirection="MatchParent" Margin="0" Padding="0" BackgroundColor="White" TranslationY="0">
+            <Frame BackgroundColor="White" HorizontalOptions="Fill" Margin="0" BorderColor="#00000000">
+                <!-- <Label x:Name="lblBienvenida" HorizontalTextAlignment="Center" FontSize="40" TextColor="#096E84" Margin="0,15,0,0">¡Bienvenido!</Label>-->
+                <Image Source="welcom2.gif" Aspect="AspectFit" Margin="-25,0" AnchorX="0" AnchorY="0" AutomationProperties.IsInAccessibleTree="False" InputTransparent="False" HeightRequest="120" HorizontalOptions="Center" IsAnimationPlaying="True" TranslationY="5"/>
+            </Frame>
+            <Image Source="sit.jpg" HorizontalOptions="Center" HeightRequest="260"></Image>
+            <Image Source="iconop3.png" TranslationX="-80"></Image>
+            <Label FontAttributes="Bold" FontSize="35" HorizontalOptions="Center" TextColor="#1C1919" TranslationY="-50">Math</Label>
+            <Label FontAttributes="Bold" FontSize="25" HorizontalOptions="Center" TextColor="#CF9D0B" Margin="0,-18,0,0" TranslationX="58" TranslationY="-72">for</Label>
+            <Label FontAttributes="Bold,Italic" FontSize="35" HorizontalOptions="Center" TextColor="#0D4880" Margin="0,-18,0,0" TranslationX="59" TranslationY="-72" FontFamily="Lucida Calligraphy">Kids</Label>
+            <Button BackgroundColor="#2B7EC6" Text="Iniciar"  CornerRadius="30" TextColor="White" FontSize="25" Margin="10,3,10,0" TranslationX="0" Clicked="Button_Clicked" TranslationY="-70" FontAttributes="Bold,Italic"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

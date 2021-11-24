@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.SECOND_MULTIP">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#8ABCF3" HeightRequest="40" HorizontalOptions="Fill" HasShadow="True">
+                <Label TextColor="White" FontSize="20" TranslationY="0" TranslationX="0" FontAttributes="Bold">Multiplicación</Label>
+                <!--<ImageButton Source="izquierda.png" BackgroundColor="#7FA4DCDE" HeightRequest="60"  Clicked="Click" TranslationX="-180" HorizontalOptions="Center"></ImageButton>-->
+            </Frame>
+            <Image Source="header4.png" TranslationY="-20"></Image>
+            <ScrollView BackgroundColor="#0561C8DE" TranslationY="-30">
+                <StackLayout>
+                    <Label FontSize="22" FontAttributes="Bold,Italic" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="0,0,0,10" TextColor="#ABBC0A">Primero - 10pts cada uno</Label>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Hay 3 busese que llevan 21 pasajeros cada uno. ¿Cuántos pasajeros hay en total?</Label>
+                    <Image Source="buses.png" TranslationX="-70" HeightRequest="50"></Image>
+                    <Entry x:Name="a" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100" TranslationY="-40" Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-50" >Las sandías cuestan 10 córdobas cada una.¿Cuántos córdobas gasto en total si compro 3 sandías?</Label>
+                    <Entry x:Name="b" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-50"></Entry>
+                    <Image x:Name="imag" Source="sandia.png" HeightRequest="150" TranslationY="-120" TranslationX="-60" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-120" >Mi hermano lee 21 páginas de un libro al día.¿Cuántas páginas lee en 7 días?</Label>
+                    <Entry x:Name="c" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-120"></Entry>
+                    <Image  Source="bookd.png" TranslationY="-170" TranslationX="-90" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-170" >Un barco transporta 365 pasajeros diariamente.¿Cuántos pasajeros transporta este barco en 3 días?</Label>
+                    <Entry x:Name="d" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-175"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-170" >Hay 6 contenedores de carga. Cada contenedor pesa 368 libras ¿Cuántas libras pesan en total?</Label>
+                    <Entry x:Name="eE" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-170"></Entry>
+                    <Image  Source="container.png" TranslationY="-190" TranslationX="-70" ></Image>
+                    
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-170" >Un juguete vale 20 córdobas. ¿Cuántos córdobas cuestan 3 juguetes?</Label>
+                    <Entry x:Name="f" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-170"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-170" >Hay tres bolsas con 5 mangos en cada una.¿Cuántos mangos hay en total?</Label>
+                    <Entry x:Name="g" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-170"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-170" >Para cercar un jardín se necesitan 27 metros de alambre.¿Cuántos metros de alambre se necesitan para cercar 3 jardines?</Label>
+                    <Entry x:Name="h" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-170"></Entry>
+                    <Image  Source="yard.jpg" TranslationY="-170" ></Image>
+                    
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-170" >Para una actividad escolar se necesitan 8 cintas de 88 cm cada una.¿Cuántos centímetros necesitan en total?</Label>
+                    <Entry x:Name="i" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-170"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-170" >La pista de la cancha para correr tiene 213 metros.¿Cuántos metros se recorren si se dan 3 vueltas?</Label>
+                    <Entry x:Name="j" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-170"></Entry>
+                    <Image  Source="cancha.jpg" TranslationY="-170" ></Image>
+
+                    <Button BorderColor="#191717" Text="Terminar test" ImageSource="checked.png" TextColor="#1CD51C" CornerRadius="10" TranslationY="-110" Margin="1,0,1,10" FontSize="25" BackgroundColor="#6C6A6A" Clicked="datos"></Button>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

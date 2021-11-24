@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.SEGUNDO_DIVISIONES">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#8ABCF3" HeightRequest="40" HorizontalOptions="Fill" HasShadow="True">
+                <Label TextColor="White" FontSize="20" TranslationY="0" TranslationX="0" FontAttributes="Bold">División</Label>
+                <!--<ImageButton Source="izquierda.png" BackgroundColor="#7FA4DCDE" HeightRequest="60"  Clicked="Click" TranslationX="-180" HorizontalOptions="Center"></ImageButton>-->
+            </Frame>
+            <Image Source="header3.png" TranslationY="-20    "></Image>
+            <ScrollView BackgroundColor="#0561C8DE" TranslationY="-30">
+                <StackLayout>
+                    <Label FontSize="22" FontAttributes="Bold,Italic" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="0,0,0,10" TextColor="#ABBC0A">Primero - 10pts cada uno</Label>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Se compraron 60 manzanas y se distribuyeron 5 a cada persona.¿Entre cuántas personas se distribuyeron?</Label>
+                    <Image Source="apples.png" TranslationX="-80" HeightRequest="100" ></Image>
+                    <Entry x:Name="a" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100" TranslationY="-80" Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Luis compartió sus 62 canicas con 2 hermanos. ¿ Cuántas canicas le tocaron acada uno?</Label>
+                    <Entry x:Name="b" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+                    <Image x:Name="imag" Source="canicas.jpg" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Se reparten 85 hojas de papel entre 5 alumnos. ¿Cuántas hojas de papel le quedarona cada uno?</Label>
+                    <Entry x:Name="c" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Hay 36m de cinta. Si se regalan 4m a cada niña, ¿Cuántos metros de cinta se le dá a cada una?                    </Label>
+                    <Entry x:Name="d" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Hay 300 libros. Si se reparten equitativamente entre 6 escuelas.¿Cuátos libros le toca a cada escuela?</Label>
+                    <Entry x:Name="eE" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Hay 12 panes y se desea repartir entre 3 personas. ¿Cuántos panes le corresponde a cada uno?</Label>
+                    <Entry x:Name="f" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-40"></Entry>
+                    <Image  Source="pan.jpg" TranslationY="-20" HeightRequest="180" TranslationX="-50" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >En una floristería se venden ramos con 5 flores cada uno. Hoy llegaron 125 flores. ¿Cuátos ramos se obtienen de las 125 flores?</Label>
+                    <Entry x:Name="g" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Hay 25 jabones. Si se meten 5 en cada caja, ¿Cuántas cajas se necesitan?</Label>
+                    <Entry x:Name="h" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Hay 72 lápices y se reparten entre 6 niños en partes iguales.¿Cuántos lápices recibirá cada uno?</Label>
+                    <Entry x:Name="i" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+                    <Image Source="lapices.png" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Se van a empacar 69 libras de azúcar. Si se empacan 3 libras en cada bolsa,¿Cuántas bolsas se necesitarán?</Label>
+                    <Entry x:Name="j" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+                    <Image  Source="sugar.jpg" ></Image>
+
+                    <Button BorderColor="#191717" Text="Terminar test" ImageSource="checked.png" TextColor="#1CD51C" CornerRadius="10" TranslationY="5" Margin="1,0" FontSize="25" BackgroundColor="#6C6A6A" Clicked="datos"></Button>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

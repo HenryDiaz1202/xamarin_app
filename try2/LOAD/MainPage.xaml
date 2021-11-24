@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.MainPage" BackgroundColor="White" >
+    <StackLayout>
+        <Image Source="iconop.png" HeightRequest="110" Margin="0,10,0,0"></Image>
+        <Label HorizontalOptions="Center" FontSize="28" TextColor="#262020" Margin="30,10,30,0">Iniciar sesión</Label>
+        <Entry  x:Name="user" Placeholder="Usuario" HorizontalTextAlignment="Center" FontSize="22" TextColor="#0E277A" Margin="30,5,30,0"></Entry>
+        <Entry   x:Name="clave"  IsPassword="True" Placeholder="Contraseña" HorizontalTextAlignment="Center" Margin="30,5,30,0" FontSize="22" TextColor="#0E277A"></Entry>
+        <Button Text="Acceder" BackgroundColor="#930193" TextColor="White" CornerRadius="10" FontSize="21" HorizontalOptions="Fill" HeightRequest="60" Clicked="entering" Margin="80,10,80,0"></Button>
+        <Button Text="Salir" TextColor="Red" BorderWidth="0" BackgroundColor="White" HorizontalOptions="Center" Margin="0,10,0,0" Clicked="salir" TranslationY="-10"></Button>
+        <Image Source="lear.png"></Image>
+    </StackLayout>
+</ContentPage>

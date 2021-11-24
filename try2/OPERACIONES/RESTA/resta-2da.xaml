@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.resta_2da">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#8ABCF3" HeightRequest="40" HorizontalOptions="Fill" HasShadow="True">
+                <Label TextColor="White" FontSize="20" TranslationY="0" TranslationX="0" FontAttributes="Bold">Sustracción</Label>
+                <!--<ImageButton Source="izquierda.png" BackgroundColor="#7FA4DCDE" HeightRequest="60"  Clicked="Click" TranslationX="-180" HorizontalOptions="Center"></ImageButton>-->
+            </Frame>
+            <Image Source="header2.png" TranslationY="-20    "></Image>
+            <ScrollView BackgroundColor="#0561C8DE" TranslationY="-30">
+                <StackLayout>
+                    <Label FontSize="22" FontAttributes="Bold,Italic" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="0,0,0,10" TextColor="#ABBC0A">Primero - 10pts cada uno</Label>
+                    <!--1-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Un camión llevaba 632 sacos de café y en una bodega dejó 269 sacos.¿Cuántos sacos de café quedaron en el camión?</Label>
+                    <Image Source="camion.png" TranslationX="-50"></Image>
+                    <Entry x:Name="a" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100" TranslationY="-80" Margin="130,0"></Entry>
+                    <!--2-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-50" >Había 1 000 limones en el canasto.Pasé 148 limones a la bolsa.¿Cuántos limones quedan en el canasto?</Label>
+                    <Entry x:Name="b" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-50"></Entry>
+                    <Image x:Name="imag" Source="fruit.png" TranslationX="-75" TranslationY="-100" HeightRequest="50" ></Image>
+                    <!--3-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-70" >En una laguna hay 132 patos, si 48 patos son negros y el resto blancos,¿cuántos patos blancos hay?</Label>
+                    <Entry x:Name="c" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-70"></Entry>
+                    <!--4-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-70">Un hotel tiene 231 habitaciones, de las cuales hay 201 desocupadas.¿Cuántas habitaciones están ocupadas?</Label>
+                    <Entry x:Name="d" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-70"></Entry>
+                    <Image  Source="hotel.jpg" HeightRequest="150" TranslationX="-70" TranslationY="-120" ></Image>
+                    <!--5-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-100">Un agricultor recogió 609 chayotes de los cuales vendió 602.¿Cuántos chayotes le quedaron?</Label>
+                    <Entry x:Name="eE" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-120"></Entry>
+                    <!--6-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-120" >Claudia y Rubén jugaron baloncesto. Claudia hizo 336 puntos y Rubén 174 puntos.¿Cuántos puntos más que Rubén hizo Claudia?</Label>
+                    <Entry x:Name="f" Text="40" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-140"></Entry>
+                    <Image  Source="ninos.png" TranslationY="-140" ></Image>
+                    <!--7-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-120" >En una hacienda habían 374 toros y se vendieron 176 toros.¿Cuántos toros quedaron?</Label>
+                    <Entry x:Name="g" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-140"></Entry>
+                    <!--8-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-140" >Habían 1000 botones en la caja. Si saqué 200 botones, ¿cuántos botones quedan</Label>
+                    <Entry x:Name="h" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-140"></Entry>
+                    <Image  Source="btn.png" TranslationY="-150" Margin="-10,0,0,0"></Image>
+                    <!--9-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-150" >En una parcela se cosechó 305 sandías y 134 melones.¿Cuántas sandías más que melones se cosechó?</Label>
+                    <Entry x:Name="i" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-70"></Entry>
+                    <Image Source="sandia.jpg" TranslationY="-220" HeightRequest="300" TranslationX="-80"  ></Image>
+                    <!--10-->
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" TranslationY="-200" >Un conejo se comió 38 zanahorias de 142 zanahorias que habían sembradas.¿Cuántas zanahorias hay ahora?</Label>
+                    <Entry x:Name="j" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-200"></Entry>
+                    <!--<Image  Source="cafe.png" TranslationY="-200" ></Image>-->
+                    <!---->
+                    <Button BorderColor="#191717" Text="Terminar test" ImageSource="checked.png" TextColor="#1CD51C" CornerRadius="10" TranslationY="-150" Margin="1,0" FontSize="25" BackgroundColor="#6C6A6A" Clicked="datos" RotationY="0" AnchorY="-150"></Button>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

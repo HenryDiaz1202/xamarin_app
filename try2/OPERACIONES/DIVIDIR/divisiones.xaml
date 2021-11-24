@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.divisiones">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#8ABCF3" HeightRequest="40" HorizontalOptions="Fill" HasShadow="True">
+                <Label TextColor="White" FontSize="20" TranslationY="0" TranslationX="0" FontAttributes="Bold">División</Label>
+                <!--<ImageButton Source="izquierda.png" BackgroundColor="#7FA4DCDE" HeightRequest="60"  Clicked="Click" TranslationX="-180" HorizontalOptions="Center"></ImageButton>-->
+            </Frame>
+            <Image Source="header3.png" TranslationY="-20    "></Image>
+            <ScrollView BackgroundColor="#0561C8DE" TranslationY="-30">
+                <StackLayout>
+                    <Label FontSize="22" FontAttributes="Bold,Italic" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="0,0,0,10" TextColor="#ABBC0A">Primero - 5pts cada uno</Label>
+                    <FlexLayout HorizontalOptions="Center" Direction="Column" JustifyContent="Center" >
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,0,215,0">a) 8 % 2 =</Label>
+                        <Entry x:Name="a" Text="0" Margin="222,0,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-45,215,0" Padding="0">b) 9 % 3 =</Label>
+                        <Entry x:Name="b" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-45,100,0">c) 44 % 11 =</Label>
+                        <Entry x:Name="c" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">d) 52 % 4 =</Label>
+                        <Entry x:Name="d" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,100,0">e) 39 % 13 =</Label>
+                        <Entry x:Name="eE" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">f) 50 % 2 =</Label>
+                        <Entry x:Name="f" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,0,215,0">g) 6 % 2 =</Label>
+                        <Entry x:Name="g" Text="0" Margin="222,0,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-45,215,0" Padding="0">h) 84 % 4 =</Label>
+                        <Entry x:Name="h"  Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-45,100,0">i) 50 % 25 =</Label>
+                        <Entry x:Name="i" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">j) 35 % 7 =</Label>
+                        <Entry x:Name="j" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,100,0">k) 56 % 4 =</Label>
+                        <Entry x:Name="k"  Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">l) 99 % 3 =</Label>
+                        <Entry x:Name="l" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">m) 40 % 8 =</Label>
+                        <Entry x:Name="m" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">n) 68 % 4 =</Label>
+                        <Entry x:Name="n" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">o) 152 % 5 =</Label>
+                        <Entry x:Name="o" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">p) 360 % 4 =</Label>
+                        <Entry x:Name="p" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">q) 186 % 3 =</Label>
+                        <Entry x:Name="q" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">r) 56 % 7 =</Label>
+                        <Entry x:Name="r" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+
+                        <Label FontAttributes="Bold" HeightRequest="-1" HorizontalOptions="Center" FontSize="29" Margin="25,-43,190,0">s) 64 % 32 =</Label>
+                        <Entry x:Name="s" Text="0" Margin="222,-5,25,0" HorizontalTextAlignment="Center" TranslationY="-60" HorizontalOptions="Center" FontSize="29" TextColor="#0CA825" Keyboard="Numeric"/>
+                    </FlexLayout>
+                    <!--********************************** -->
+                    <Button BorderColor="#191717" Text="Terminar test" ImageSource="checked.png" TextColor="#1CD51C" CornerRadius="10" TranslationY="-20" Margin="5,0" FontSize="25" BackgroundColor="#6C6A6A" Clicked="PASARDATOS"></Button>
+
+                    <Label x:Name="dat" IsVisible="False"></Label>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

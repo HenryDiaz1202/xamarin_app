@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.Sumar_2do">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#8ABCF3" HeightRequest="40" HorizontalOptions="Fill" HasShadow="True">
+                <Label TextColor="White" FontSize="20" TranslationY="0" TranslationX="0" FontAttributes="Bold">Adición</Label>
+                <!--<ImageButton Source="izquierda.png" BackgroundColor="#7FA4DCDE" HeightRequest="60"  Clicked="Click" TranslationX="-180" HorizontalOptions="Center"></ImageButton>-->
+            </Frame>
+            <Image Source="header.png" TranslationY="-20"></Image>
+            <ScrollView BackgroundColor="#0561C8DE" TranslationY="-30">
+                <StackLayout>
+                    <Label FontSize="22" FontAttributes="Bold,Italic" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="0,0,0,10" TextColor="#ABBC0A">Primero - 10pts cada uno</Label>
+                    
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >En una granja habían 256 pollitos y nacieron 149 pollitos más. ¿Cuántos pollitos hay en total?</Label>
+                    <Image Source="pollos.png" TranslationX="-50"></Image>
+                    <Entry x:Name="a" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100" TranslationY="-80" Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >¿Cuántos nancites hay en total? usando la imagen</Label>
+                    <Entry x:Name="b" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+                    <Image x:Name="imag" Source="nancite.png" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >El papá de María tenía 504 naranjas en un canasto y después le puso 10 naranjas más.¿Cuántas naranjas tiene ahora?</Label>
+                    <Entry x:Name="c" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Rosa tenía 125 palitos de eskimo y consiguió 10 palitos más. ¿Cuántos palitos de eskimo tiene ahora?</Label>
+                    <Entry x:Name="d" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Gustavo tenía 159 canicas y ganó 327 canicas. ¿Cuántas canicas tiene Gustavo ahora?</Label>
+                    <Entry x:Name="eE" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >¿Cuántos sacos hay en total? usando la imagen</Label>
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F">313 + 421 + 251 = ?</Label>
+                    <Entry x:Name="f" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0" TranslationY="-40"></Entry>
+                    <Image  Source="sacos.png" TranslationY="-40" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >En la comarca A habitan 338 personas, en la comarca B 257 personas y en la comarca C 183 personas. ¿Cuántas personas habitan en total en las tres comarcas?</Label>
+                    <Entry x:Name="g" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >GDoña María cosechó 862 quintales de maíz y don Juan 129 quintales de maíz. ¿Cuántos quintales de maíz cosecharon entre los dos?</Label>
+                    <Entry x:Name="h" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Una planta medía 192 cm y creció 12 cm más.¿Cuántos centímetros mide la planta ahora?</Label>
+                    <Entry x:Name="i" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+                    <Image Source="tree.png" ></Image>
+
+                    <Label Margin="15,0" FontSize="19" TextColor="#352F2F" >Una planta tiene 579 granos de café y otra tiene 95 granos. ¿Cuántos granos tienen las dos planta s juntas?</Label>
+                    <Entry x:Name="j" Text="0" HorizontalTextAlignment="Center" HorizontalOptions="Fill" FontSize="29" TextColor="#0CA825" Keyboard="Numeric" TranslationX="100"  Margin="130,0"></Entry>
+                    <Image  Source="cafe.png" ></Image>
+
+                    <Button BorderColor="#191717" Text="Terminar test" ImageSource="checked.png" TextColor="#1CD51C" CornerRadius="10" TranslationY="5" Margin="1,0" FontSize="25" BackgroundColor="#6C6A6A" Clicked="datos"></Button>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

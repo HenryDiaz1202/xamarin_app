@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.CONGRAT">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Label x:Name="header"></Label>
+                    <Image x:Name="repre" IsAnimationPlaying="True"></Image>
+                    <Label FontSize="25" TextColor="#3C3838" IsEnabled="False" Margin="0" HorizontalTextAlignment="Center">Has obtenido una calificación de</Label>
+                    <Label x:Name="resultado" Text="" FontSize="40" TextColor="#046230" IsEnabled="False" Margin="0,0,0,10" HorizontalTextAlignment="Center"></Label>
+                    <Label x:Name="message" HorizontalTextAlignment="Center" TextColor="#A20202" FontSize="17" Margin="0,0,0,10"></Label>
+                    <Button x:Name="avnz" BackgroundColor="#2A82CF" TextColor="White" CornerRadius="20" Text="Avanzar" Margin="30,0" HeightRequest="60" FontSize="20" Clicked="avance"></Button>
+                   <!-- <Button x:Name="revs" BackgroundColor="#2A82CF" TextColor="White" CornerRadius="20" Text="Revisar test" Margin="30,0" HeightRequest="60" FontSize="20" Clicked="revers"></Button>-->
+                    <!--<Button x:Name="cancel" BackgroundColor="#2A82CF" TextColor="White" CornerRadius="20" Text="Cancelar" Margin="30,0" HeightRequest="60" FontSize="20" Clicked="cancelar"></Button>-->
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

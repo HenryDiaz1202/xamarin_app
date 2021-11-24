@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try2.Main">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#10B966">
+                <FlexLayout JustifyContent="End">
+                    <Image Source="iconop2.png" HeightRequest="45" HorizontalOptions="Center" TranslationX="-90" ></Image>
+                    <Label HorizontalOptions="Start" FontSize="20" TranslationY="10" TranslationX="-80" TextColor="#FAF8F8" >Math for Kids</Label>
+                    <ImageButton Source="user.png" HeightRequest="45" HorizontalOptions="End" BackgroundColor="#10B966" Clicked="users"></ImageButton>
+                    <ImageButton Source="close.png" HeightRequest="45" HorizontalOptions="End" BackgroundColor="#10B966" Clicked="salir"></ImageButton>
+                </FlexLayout>
+            </Frame>
+            <ScrollView>
+                <StackLayout>
+                    <Frame>
+                        <Image Source="genius.jpg" HeightRequest="250"></Image>
+                    </Frame>
+                    <Label FontSize="22" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#011C2A" Margin="0,2,0,10">☺ ¡APRENDAMOS! ☺</Label>
+                    <Button CornerRadius="10" Text="Adición" BackgroundColor="#10B966" FontSize="20" TextColor="#FCFCFC" HeightRequest="60" HorizontalOptions="FillAndExpand" IsEnabled="True" VerticalOptions="Center" Margin="20,0" Clicked="sumar"></Button>
+                    <Button CornerRadius="10" Text="Sustracción" BackgroundColor="#10B966" FontSize="20" TextColor="#FCFCFC" HeightRequest="60" HorizontalOptions="FillAndExpand" IsEnabled="True" VerticalOptions="Center" Margin="20,0" Clicked="restar"></Button>
+                    <Button CornerRadius="10" Text="Multiplicación" BackgroundColor="#10B966" FontSize="20" TextColor="#FCFCFC" HeightRequest="60" HorizontalOptions="FillAndExpand" IsEnabled="True" VerticalOptions="Center" Margin="20,0" Clicked="multiplicar"></Button>
+                    <Button CornerRadius="10" Text="División" BackgroundColor="#10B966" FontSize="20" TextColor="#FCFCFC" HeightRequest="60" HorizontalOptions="FillAndExpand" IsEnabled="True" VerticalOptions="Center" Margin="20,0" Clicked="dividir"></Button>
+                    <Label Margin="0,5"></Label>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
